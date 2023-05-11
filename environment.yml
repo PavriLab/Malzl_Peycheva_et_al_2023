@@ -1,0 +1,23 @@
+name: analysis
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - bowtie2=2.5.1
+  - ipython=7.10.2
+  - pip=19.3.1
+  - python=3.7.3
+  - samtools=1.9
+  - pip:
+    - cooler==0.8.3
+    - ipykernel==5.2.1
+    - jupyterlab==3.2.9
+    - matplotlib==3.1.0
+    - numpy==1.16.4
+    - pandas==1.1.0
+    - pybedtools==0.8.0
+    - pyBigWig==0.3.16
+    - pysam==0.15.2
+    - scipy==1.3.0
+    - seaborn==0.11.1
