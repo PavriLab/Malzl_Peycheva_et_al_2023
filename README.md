@@ -10,7 +10,7 @@ Required software tools and packages used to run the code in this repository, in
 2. clone the code from this repository using `git clone https://docs.conda.io/en/latest/miniconda.html`
 3. change the cloned directory and run the following command to set up the environment `conda env create -f environment.yml` (this step usually takes a couple of minutes)
 4. activate the environment using `conda activate analysis` and prepare it for use in jupyter with `python3 -m ipykernel install --name analysis --user`
-5. start the jupyter server using `jupyter lab` and you are good to run everything
+5. for executing the code in the `*.ipynb` notebooks run `jupyter lab`
 
 Versions of other software and how they were run can be found in the manuscript. Most of the code used to analyse the Hi-C data can be found at [pavrilab/hicer-nf](https://github.com/PavriLab/hicer-nf) and [pavrilab/hic_analysis](https://github.com/PavriLab/hic_analysis)
 
