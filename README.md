@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/621298541.svg)](https://zenodo.org/doi/10.5281/zenodo.7924348)
+
 # Malzl_Peycheva_et_al_2023
 Repository for code of analyses presented in the paper
 
